@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="inserir-style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="home.html">
+                <img class="botao_home" src="Assets/home.png">
+            </a>
+            <a class="cabecalho__menu__link_2" href="inserir.html">
+                <img class="botao_adicionar" src="Assets/plus.png">
+            </a>
+            <a class="cabecalho__menu__link_3" href="consulta-banco.html">
+                <img class="botao_consultarbanco" src="Assets/caixa (1).png">
+            </a>
+        </nav>
+    </header>
+
+    <main class="corpo_Escrita">
+        <form name="frmProduto" action="update" class="form-comercial">
+            <h2 class="titulo-form">Editar Produto</h2>
+            <div class="form-group">
+                <label for="codigo">Código:</label>
+                <input type="number" name="codigo" id="codigo" class="form-control" value>
+            </div>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" class="form-control" value>
+            </div>
+            <div class="form-group">
+                <label for="categoria">Categoria:</label>
+                <input type="text" name="categoria" id="categoria" class="form-control" value>
+            </div>
+            <div class="form-group">
+                <label for="valor">Preço:</label>
+                <input type="number" name="valor" id="valor" class="form-control" value=>
+            </div>
+            <div class="form-group">
+                <label for="quantidade">Quantidade:</label>
+                <input type="number" name="quantidade" id="quantidade" class="form-control" value=>
+            </div>
+            <div class="form-group">
+                <input type="button" value="Salvar" class="btn btn-primary" onclick="validar()">
+            </div>
+        </form>
+            <footer class="rodape">
+                <p>©AtosProject</p>
+            </footer>
+</body>
+
+</html>

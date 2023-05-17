@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+    margin: 0%;
+
+}
+
+body {
+    background-color: #ffff;
+    background-image: url(Assets/LogoEditada.png);
+    background-repeat: no-repeat;
+    background-position: 200% 1%;
+    background-clip: border-box;
+}
+
+.cabecalho {
+    padding: 0.5% 0% 1% 2%;
+    background-color: #0596FF;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: left;
+    gap: 3%;
+    padding-top: 0.5%;
+}
+
+.botao_home {
+    height: 41px;
+    width: 41px;
+}
+
+.botao_adicionar {
+    height: 41px;
+    width: 41px;
+}
+
+.botao_consultarbanco {
+    height: 41px;
+    width: 41px;
+    padding-top: 5px;
+
+
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 20%;
+}
+
+p {
+    font-family: Raleway;
+    color: black;
+    font-weight: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Raleway;
+    margin-top: 10%;
+    font-size: 48px;
+    color: #0596FF;
+}
+
+h2 {
+    text-align: center;
+    font-family: Raleway;
+    margin-top: 3%;
+    font-size: 24px;
+    color: black;
+}
+
+
+.tabela_inserir {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    border-color: #0596FF;
+    border-style: none;
+
+
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    border: 1px solid;
+    font-family: Raleway;
+    font-size: 1.3em;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0;
+
+}
+
+tr, td {
+    text-align: left;
+   
+}    
+th {
+    display: table-cell;
+    vertical-align: auto;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+
+.titulo_tabela {
+    font-family: Raleway;
+    text-align: center;
+    color: #0596FF;
+    font-size: 28px;
+}
+
+.botão_inferior {
+    width: 150px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: #0596FF;
+    position: absolute;
+    left: 60%;
+    margin: 5% 0 0 0;
+    text-align: center;
+
+}
+
+.link_inferior{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+    font-family: Raleway;
+    text-decoration: none;
+}
+.botão_inferior2 {
+    width: 150px;
+    height: 40px;
+    border-radius: 24px;
+    background-color: #ff0000;
+    position: absolute;
+    left: 30%;
+    margin: 5% 0 0 0;
+    text-align: center;
+
+}
+
+.link_inferior2{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+    font-family: Raleway;
+    text-decoration: none;
+}

@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+* {
+    margin: 0%;
+
+}
+
+body {
+    background-color: #ffff;
+    background-image: url(Assets/LogoEditada.png);
+    background-repeat: no-repeat;
+    background-position: 200% 1%;
+    background-clip: border-box;
+}
+
+.cabecalho {
+    padding: 0.5% 0% 1% 2%;
+    background-color: #0596FF;
+}
+
+.cabecalho__menu {
+    display: flex;
+    justify-content: left;
+    gap: 3%;
+    padding-top: 0.5%;
+}
+
+.botao_home {
+    height: 41px;
+    width: 41px;
+}
+
+.botao_adicionar {
+    height: 41px;
+    width: 41px;
+}
+
+.botao_consultarbanco {
+    height: 41px;
+    width: 41px;
+    padding-top: 5px;
+
+
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 20%;
+}
+
+p {
+    font-family: Raleway;
+    color: black;
+    font-weight: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Raleway;
+    margin-top: 10%;
+    font-size: 48px;
+    color: #0596FF;
+}
+
+h2 {
+    text-align: center;
+    font-family: Raleway;
+    margin-top: 3%;
+    font-size: 24px;
+    color: black;
+}
+
+.titulo-form {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #555;
+}
+.form-comercial {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
